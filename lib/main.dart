@@ -58,8 +58,13 @@ class _HomePageState extends State<HomePage> {
                   fontSize: 20,
                 ),
               ),
+              SizedBox(height: 10),
               Text(
-                  "Location Co-ordinates: ${_currentPosition.latitude}, ${_currentPosition.longitude}"),
+                "Location Co-ordinates: ${_currentPosition.latitude}, ${_currentPosition.longitude}",
+                style: TextStyle(
+                  fontSize: 16,
+                ),
+              ),
             ],
           ),
         ),
